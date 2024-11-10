@@ -14,10 +14,13 @@ body {
 }
 
 .loader {
-  height: 3px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 5px;
   width: 100%;
   --c: no-repeat linear-gradient(#6100ee 0 0);
-  background: var(--c), var(--c), #fcfbb8;
+  background: var(--c), var(--c), #d7b8fc;
   background-size: 60% 100%;
   animation: l16 3s infinite;
 }
